@@ -1,0 +1,6 @@
+Sredi za mobitele
+
+Sredi ritmove u odnosu na bpm (da nisu samo četvrtinke)
+
+Kad se renderira novi ritam dok se vrti start() ostane u rasponu starog ritma pa na render() resetiraj da se nastavi ali preko cijelog
+
