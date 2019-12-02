@@ -11,7 +11,7 @@ $(function() {
     let clickSound = new Audio('sounds/click.mp3');          clickSound.volume = 1;
     let firstSound = new Audio('sounds/1st-rhythm.mp3');     firstSound.volume = 0.6;
     let secondSound = new Audio('sounds/2nd-rhythm.mp3');    secondSound.volume = 0.6;
-    let thirdSound = new Audio('sounds/3rd-rhythm.mp3');    thirdSound.volume = 0.8;
+    let thirdSound = new Audio('sounds/3rd-rhythm.mp3');     thirdSound.volume = 0.8;
     let togetherSound = new Audio('sounds/together.mp3');    togetherSound.volume = 1;
 
     // Randomizer
@@ -35,8 +35,8 @@ $(function() {
         let randomMjera = getRandomNumber(mjere.length - 1);
         let randomDynProgresija = getRandomNumber(dyn_progresije.length - 1);
 
-        const mjeraHTML = document.getElementById('mjera');
-        const progresijaHTML = document.getElementById('progresija');
+        const mjera = document.getElementById('mjera');
+        const progresija = document.getElementById('progresija');
 
         mjera.innerHTML = mjere[randomMjera];
         progresija.innerHTML = dyn_progresije[randomDynProgresija];
